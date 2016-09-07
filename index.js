@@ -29,7 +29,7 @@ $(function(){
 
   // 入力が変化した時
   k.updatePioInput( function(data) {    
-    k.digitalRead(k.AIO1, function(value) {
+    k.digitalRead(k.PIO1, function(value) {
       //k.log(value);
       if(value == k.HIGH) {
          $("#s1-status").html("ON");
