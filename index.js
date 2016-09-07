@@ -24,7 +24,7 @@ $(function(){
       .removeClass("find")
       .html("Disconnect konashi");
 
-    k.pinMode(k.S1, k.INPUT);
+    k.pinMode(k.PIO1, k.INPUT);
   });
 
   // 入力が変化した時
